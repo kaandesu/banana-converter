@@ -10,29 +10,29 @@
 
 These are the useful scripts that you can use while developing. You can find them in the `package.json` file. You can run them by using `npm run <script_name>`.
 
-| Script                 | Description                                    |
-| ---------------------- | ---------------------------------------------- |
-| `dev`                  | Start the development environment              |
-| `build`                | Test and build the app and the `live-demo`     |
-| `build:live-demo`      | Only build the `live-demo`                     |
-| `build:lib`            | Only build the `library`                       |
-| `coverage:web`         | Serve the test coverage report to localhost    |
-| `generate:types`       | Generate all the types for the project         |
-| `changeset`            | Adds a changelog to the project after a change |
-| `test`                 | Run the tests once                             |
-| `test:watch`           | Watch the tests                                |
-| `test:coverage`        | Create a coverage report for the tests         |
-| `clean`                | Remove ./dist and ./live-demo directories      |
+| Script            | Description                                    |
+| ----------------- | ---------------------------------------------- |
+| `dev`             | Start the development environment              |
+| `build`           | Test and build the app and the `live-demo`     |
+| `build:live-demo` | Only build the `live-demo`                     |
+| `build:lib`       | Only build the `library`                       |
+| `coverage:web`    | Serve the test coverage report to localhost    |
+| `generate:types`  | Generate all the types for the project         |
+| `changeset`       | Adds a changelog to the project after a change |
+| `test`            | Run the tests once                             |
+| `test:watch`      | Watch the tests                                |
+| `test:coverage`   | Create a coverage report for the tests         |
+| `clean`           | Remove ./dist and ./live-demo directories      |
 
 When pushing your changes, always include a **changeset** file. You can do this by running the `changeset` script. It will ask you a few questions and then create a file for you. You can read more about it [here](https://github.com/changesets/changesets/blob/main/docs/adding-a-changeset.md).
 
 ### 🐛 **Did you find a bug?**
 
-Ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/kaandesu/ts-vite-npm-package/issues). If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/kaandesu/ts-vite-npm-package/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible demonstrating the expected behavior that is not occurring.
+Ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/kaandesu/banana-converter/issues). If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/kaandesu/banana-converter/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible demonstrating the expected behavior that is not occurring.
 
 ### 💡 **Do you want to add a new feature or change an existing one?**
 
-[Open a GitHub issue](https://github.com/kaandesu/ts-vite-npm-package/issues/new) stating your feature request clearly. We can discuss it on the issue thread, then you can implement it! 🎉
+[Open a GitHub issue](https://github.com/kaandesu/banana-converter/issues/new) stating your feature request clearly. We can discuss it on the issue thread, then you can implement it! 🎉
 
 ### ✨ **Did you write a change that fixes a bug?**
 
@@ -66,4 +66,4 @@ Open a new GitHub pull request with the patch.
 
 Open source software is beautiful, all of your contributions are much appreciated
 
-Thanks! 
+Thanks!

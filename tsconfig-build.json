@@ -14,9 +14,9 @@
     "types": ["node"],
     "baseUrl": "./",
     "paths": {
-      "~/*": ["src/myPackagePlugin/*"]
+      "~/*": ["src/bananaConverter/*"]
     }
   },
-  "include": ["src/myPackagePlugin/*.ts", "src/myPackagePlugin/*.d.ts"],
+  "include": ["src/bananaConverter/*.ts", "src/bananaConverter/*.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'TS npm template',
-  description: 'Vitepress documentation example for ts-vite-npm-template repository',
+  title: 'Banana Converter',
+  description: 'Convert Lengths and Distances to Bananas',
   lang: 'en-US',
-  base: '/ts-vite-npm-template/',
+  base: '/banana-converter/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.webp',
@@ -24,6 +24,6 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/kaandesu/ts-vite-npm-template' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/kaandesu/banana-converter' }],
   },
 })

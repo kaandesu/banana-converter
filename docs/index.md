@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: 'TS Vite NPM Template'
-  text: 'Vitepress documentation example'
-  tagline: My great package tagline
+  name: 'Banana Converter'
+  text: 'Convert Lengths and Distances to Bananas'
+  tagline: Simple, Blazingly Fast, and Free
   actions:
     - theme: brand
       text: Live Demo
-      link: https://kaandesu.github.io/ts-vite-npm-template/live-demo/index.html
+      link: https://kaandesu.github.io/banana-converter/live-demo/index.html
     - theme: alt
       text: Markdown Examples
       link: /markdown-examples
@@ -17,8 +17,8 @@ hero:
       text: API Examples
       link: /api-examples
   image:
-    src: https://raw.githubusercontent.com/kaandesu/ts-vite-npm-template/main/public/logo.webp
-    alt: ts-vite-npm-template
+    src: https://raw.githubusercontent.com/kaandesu/banana-converter/main/public/logo.webp
+    alt: banana-converter
 
 features:
   - title: Feature A

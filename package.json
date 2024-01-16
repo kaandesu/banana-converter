@@ -7,10 +7,11 @@
   "keywords": [
     "banana",
     "converter",
-    "lenght",
+    "length",
     "distance",
     "unit",
-    "conversion"    
+    "conversion",
+    "monkey"
   ],
   "repository": {
     "type": "git",

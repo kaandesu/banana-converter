@@ -9,9 +9,7 @@
 
   <!-- Add tech stack badges below -->
 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
   <!-- Title -->
   <h3 align="center">Banana Converter</h3>
@@ -41,9 +39,19 @@ npm i banana-converter
 ## Usage
 
 ```typescript
-import { convert } from "banana-converter";
+import { convert } from 'banana-converter'
 
-convert(1.5, "banana", "cm"); // 26.67
-convert(24, "yard", "banana"); // 123.432
-convert(60, "kilometer", "banana"); // 337078.651685
+convert(1.5, 'banana', 'cm') // 26.67
+convert(24, 'yard', 'banana') // 123.432
+convert(60, 'kilometer', 'banana') // 337078.651685
 ```
+
+## Contributing
+
+Contributions to the project is highly appreciated. If you have any suggestions/questions/requests please consider [opening an issue](https://github.com/kaandesu/banana-converter/issues/new). If you want to contribute to the project, fixing an open issue is greatly recommended and appreciated. To see the all contribution rules please check the [contribution rules](CONTRIBUTING.md).
+
+### Contact
+
+| Maintainer                              |
+| --------------------------------------- |
+| [kaandesu](https://github.com/kaandesu) |
