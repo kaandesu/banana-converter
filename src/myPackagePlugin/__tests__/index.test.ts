@@ -39,13 +39,13 @@ describe("Banana Converter", () => {
 
   it("should convert from Banana to Meters", () => {
     const bananaLength = 1;
-    const result = convert(bananaLength, "banana", "meters");
+    const result = convert(bananaLength, "banana", "meter");
     expect(result).toBe(0.178);
   });
 
   it("should convert from Meters to Bananas", () => {
     const metersLength = 215.5;
-    const result = convert(metersLength, "meters", "banana");
+    const result = convert(metersLength, "meter", "banana");
     expect(Math.floor(result)).toBe(1210);
   });
 

@@ -1,49 +1,26 @@
-name: CI
+name: Build and Test
 
 on:
-  pull_request:
-    branches: ["*"]
   push:
-    branches: [main, develop]
-
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
 jobs:
-  build:
-    runs-on: ubuntu-20.04
-
-    name: Build and lint
+  build_and_test:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2.4.0
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          version: 8.12
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 21.4
-          cache: "pnpm"
-
-      - name: Get pnpm store directory
-        id: pnpm-cache
-        run: |
-          echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
-
-      - name: Setup pnpm cache
-        uses: actions/cache@v3.3.1
-        with:
-          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
-
+          node-version: 16.x
+          cache: "npm"
       - name: Install dependencies
-        run: pnpm install
-
-      - name: Lint and format
-        run: pnpm test
-
-      - name: Build the project
-        run: pnpm build
+        run: npm ci
+      - name: Test
+        run: npm run test
+      - name: Build
+        run: npm run build
