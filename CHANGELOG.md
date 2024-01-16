@@ -1,5 +1,11 @@
 # banana-converter
 
+## 0.1.2
+
+### Patch Changes
+
+- 3cc2f0a: fix readme
+
 ## 0.1.1
 
 ### Patch Changes

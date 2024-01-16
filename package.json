@@ -1,7 +1,7 @@
 {
   "name": "banana-converter",
   "author": "kaandesu (https://github.com/kaandesu)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "description": "Convert lengths and distances to bananas and bananas to lenghts",
   "keywords": [
