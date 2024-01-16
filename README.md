@@ -20,11 +20,11 @@
     <br />        
     <br />
     <!-- CHANGE IT WITH YOUR GITHUB PAGES LINK -->
-    <a href="https://your-github-username.github.io/banana-converter/">Live Demo</a>
+    <a href="https://kaandesu.github.io/banana-converter/">Live Demo</a>
     ·<!-- CHANGE IT WITH YOUR GITHUB ISSUES LINK -->
-    <a href="https://github.com/your-github-username/banana-converter/issues">Report Bug</a>
+    <a href="https://github.com/kaandesu/banana-converter/issues">Report Bug</a>
     ·<!-- CHANGE IT WITH YOUR GITHUB ISSUES LINK -->
-    <a href="https://github.com/your-github-username/banana-converter/issues">Request Feature</a>
+    <a href="https://github.com/kaandesu/banana-converter/issues">Request Feature</a>
   </p>
 </div>
 
@@ -39,11 +39,11 @@ npm i banana-converter
 ## Usage
 
 ```typescript
-import { convert } from 'banana-converter'
+import { convert } from "banana-converter";
 
-convert(1.5, 'banana', 'cm') // 26.67
-convert(24, 'yard', 'banana') // 123.432
-convert(60, 'kilometer', 'banana') // 337078.651685
+convert(1.5, "banana", "cm"); // 26.67
+convert(24, "yard", "banana"); // 123.432
+convert(60, "kilometer", "banana"); // 337078.651685
 ```
 
 ## Contributing
