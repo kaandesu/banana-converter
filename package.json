@@ -1,7 +1,7 @@
 {
   "name": "banana-converter",
   "author": "kaandesu (https://github.com/kaandesu)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "Convert lengths and distances to bananas and bananas to lenghts",
   "keywords": [
@@ -41,7 +41,7 @@
     "build": "npm run test && vite build --mode production && npm run generate:types && npm run build:pages",
     "build:lib": "npm run test && vite build --mode production && npm run generate:types",
     "clean": "rm -rf ./dist && rm -rf ./live-demo && rm -rf ./coverage",
-    "coverage:web": "http-server ./coverage",    
+    "coverage:web": "http-server ./coverage",
     "generate:types": "tsc -p tsconfig-build.json --declaration --emitDeclarationOnly true --outdir ./dist",
     "changeset": "changeset",
     "test": "vitest run",
