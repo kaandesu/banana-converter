@@ -16,7 +16,9 @@
 
   <!-- DESCRIPTION -->
   <p align="center">
-    Convert lengths to and from bananas with this simple TypeScript library. Supports various units for convenient conversions.
+    Convert lengths to and from bananas with this simple TypeScript library. Supports various units for convenient conversions. 
+    <br />
+    Simple, blazingly fast and free! 🍌
     <br />        
     <br />
     <!-- CHANGE IT WITH YOUR GITHUB PAGES LINK -->
@@ -49,6 +51,22 @@ convert(60, "kilometer", "banana"); // 337078.651685
 ## Contributing
 
 Contributions to the project is highly appreciated. If you have any suggestions/questions/requests please consider [opening an issue](https://github.com/kaandesu/banana-converter/issues/new). If you want to contribute to the project, fixing an open issue is greatly recommended and appreciated. To see the all contribution rules please check the [contribution rules](CONTRIBUTING.md).
+
+### Roadmap
+
+- More banana options for **i18n** support:
+  - [ ] Cavendish Banana.
+  - [ ] Pisang Raja.
+  - [ ] Red Banana.
+  - [ ] Lady Finger Banana.
+  - [ ] Blue Java Banana.
+  - [ ] Plantain.
+  - [ ] Manzano Banana.
+  - [ ] Burro Banana.
+  - [ ] Çikita
+
+* [ ] Weight converter.
+* [ ] Detailed documentation.
 
 ### Contact
 
