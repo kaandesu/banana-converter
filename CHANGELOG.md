@@ -1,5 +1,11 @@
 # banana-converter
 
+## 0.1.4
+
+### Patch Changes
+
+- 4ccbd30: public dir is now not a part of build
+
 ## 0.1.3
 
 ### Patch Changes
