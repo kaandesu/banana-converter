@@ -1,5 +1,3 @@
-import "./style.css";
-
 const conversions = {
   banana: 1,
   inch: 7.0,
